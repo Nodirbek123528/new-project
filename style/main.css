@@ -106,7 +106,7 @@ li {
   width: 50%;
   display: flex;
   flex-direction: row;
-  z-index: 2;
+  z-index: 3;
 }
 .dropdown-body-row-left-link {
   display: flex;
@@ -131,6 +131,7 @@ li {
   flex-direction: row;
   padding: 140px 0px 140px 100px;
   gap: 150px;
+  z-index: 3;
 }
 .dropdown-body-row-right-left {
   display: flex;
@@ -178,8 +179,10 @@ li {
   position: absolute;
   display: flex;
   right: 0;
-  top: 28px;
+  top: 24.3%;
   z-index: -1;
+  width: 360px;
+  height: 360px;
 }
 
 .container {

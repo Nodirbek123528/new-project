@@ -71,7 +71,7 @@
                 width: 50%;
                 display: flex;
                 flex-direction: row;
-                z-index: 2;
+                z-index: 3;
 
                 // transition: all 0.3s ease-in-out;
                 &-link{
@@ -100,6 +100,7 @@
                 flex-direction: row;
                 padding: 140px 0px 140px 100px;
                 gap: 150px;
+                z-index: 3;
                 &-left{
                     display: flex;
                     flex-direction: column;
@@ -152,8 +153,10 @@
     position: absolute;
     display: flex;
     right: 0;
-    top: 28px;
+    top: 24.3/%;
     z-index: -1;
+    width: 360px;
+    height: 360px;
     // overflow: hidden;
     
 }
