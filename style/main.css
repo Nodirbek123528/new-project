@@ -120,7 +120,7 @@ li {
 }
 .dropdown-body-row-left-right {
   margin-right: 0px;
-  margin-left: 60px;
+  margin-left: 40px;
   z-index: 3;
 }
 .dropdown-body-row-right {
@@ -128,8 +128,8 @@ li {
   width: 50%;
   display: flex;
   flex-direction: row;
-  padding: 140px 0px 190px 100px;
-  gap: 150px;
+  padding: 80px 0px 144px 100px;
+  gap: 50px;
   z-index: 3;
 }
 .dropdown-body-row-right-left {
@@ -140,6 +140,9 @@ li {
 }
 .dropdown-body-row-right-left-top {
   width: 120px;
+}
+.dropdown-body-row-right-left-bottom {
+  width: 150px;
 }
 .dropdown-body-row-right-left-title {
   margin-bottom: 8px;
@@ -177,6 +180,13 @@ li {
   flex-direction: row;
   gap: 4px;
 }
+.dropdown-body-row-right-right-global2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -25px;
+  gap: 4px;
+}
 .dropdown-body-row-right-right-title {
   margin-bottom: 8px;
   font-size: 16px;
@@ -199,7 +209,7 @@ li {
   border-radius: 50%;
 }
 .dropdown-body-row-right-right-subtitle1:hover {
-  border: 3px solid black;
+  border: 2px solid black;
 }
 .dropdown-body-row-right-right-subtitle2 {
   width: 22px;
@@ -208,7 +218,7 @@ li {
   border-radius: 50%;
 }
 .dropdown-body-row-right-right-subtitle2:hover {
-  border: 3px solid black;
+  border: 2px solid black;
 }
 .dropdown-body-row-right-right-subtitle3 {
   width: 22px;
@@ -217,7 +227,7 @@ li {
   border-radius: 50%;
 }
 .dropdown-body-row-right-right-subtitle3:hover {
-  border: 3px solid black;
+  border: 2px solid black;
 }
 .dropdown-body-row-right-right-subtitle4 {
   width: 22px;
@@ -226,7 +236,7 @@ li {
   border-radius: 50%;
 }
 .dropdown-body-row-right-right-subtitle4:hover {
-  border: 3px solid black;
+  border: 2px solid black;
 }
 .dropdown-body-row-right-right-subtitle5 {
   width: 22px;
@@ -235,7 +245,7 @@ li {
   border-radius: 50%;
 }
 .dropdown-body-row-right-right-subtitle5:hover {
-  border: 3px solid black;
+  border: 2px solid black;
 }
 .dropdown-body-row-right-right-subtitle6 {
   width: 22px;
@@ -244,14 +254,68 @@ li {
   border-radius: 50%;
 }
 .dropdown-body-row-right-right-subtitle6:hover {
-  border: 3px solid black;
+  border: 2px solid black;
+}
+.dropdown-body-row-right-right-subtitle7 {
+  width: 22px;
+  height: 22px;
+  background-color: coral;
+  border-radius: 50%;
+}
+.dropdown-body-row-right-right-subtitle7:hover {
+  border: 2px solid black;
+}
+.dropdown-body-row-right-right-subtitle8 {
+  width: 22px;
+  height: 22px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+}
+.dropdown-body-row-right-right-subtitle8:hover {
+  border: 2px solid black;
+}
+.dropdown-body-row-right-right-subtitle9 {
+  width: 22px;
+  height: 22px;
+  background-color: #A9998C;
+  border-radius: 50%;
+}
+.dropdown-body-row-right-right-subtitle9:hover {
+  border: 2px solid black;
+}
+.dropdown-body-row-right-right-subtitle10 {
+  width: 22px;
+  height: 22px;
+  background-color: #f2e1ba;
+  border-radius: 50%;
+}
+.dropdown-body-row-right-right-subtitle10:hover {
+  border: 2px solid black;
+}
+.dropdown-body-row-right-right-subtitle11 {
+  width: 22px;
+  height: 22px;
+  background-color: #397AF2;
+  border-radius: 50%;
+}
+.dropdown-body-row-right-right-subtitle11:hover {
+  border: 2px solid black;
+}
+.dropdown-body-row-right-right-subtitle12 {
+  width: 22px;
+  height: 22px;
+  background-color: #f2e024;
+  border-radius: 50%;
+}
+.dropdown-body-row-right-right-subtitle12:hover {
+  border: 2px solid black;
 }
 
 .fon-img {
   position: absolute;
   display: flex;
   right: 0;
-  top: 24.3%;
+  top: 14.6%;
   z-index: -1;
   width: 360px;
   height: 360px;
@@ -261,7 +325,47 @@ li {
   position: absolute;
   display: flex;
   right: 0;
-  top: 19.9%;
+  top: 14.6%;
+  z-index: -1;
+  width: 360px;
+  height: 360px;
+}
+
+.fon-img3 {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 14.6%;
+  z-index: -1;
+  width: 360px;
+  height: 360px;
+}
+
+.fon-img4 {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 14.6%;
+  z-index: -1;
+  width: 360px;
+  height: 360px;
+}
+
+.fon-img5 {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 14.6%;
+  z-index: -1;
+  width: 360px;
+  height: 360px;
+}
+
+.fon-img6 {
+  position: absolute;
+  display: flex;
+  right: 0;
+  top: 18.8%;
   z-index: -1;
   width: 360px;
   height: 360px;
