@@ -562,6 +562,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .wrapper .main-row-section1 {
   width: 100%;
@@ -600,7 +601,7 @@ li {
 }
 .wrapper .main-row-section1-reklam-buttons2 {
   position: absolute;
-  bottom: 25%;
+  bottom: 15%;
   left: 32%;
   display: flex;
   align-items: center;
@@ -608,7 +609,7 @@ li {
 }
 .wrapper .main-row-section1-reklam-buttons3 {
   position: absolute;
-  bottom: 25%;
+  bottom: 15%;
   left: 56%;
   display: flex;
   align-items: center;
@@ -616,7 +617,7 @@ li {
 }
 .wrapper .main-row-section1-reklam-buttons4 {
   position: absolute;
-  bottom: 25%;
+  bottom: 15%;
   left: 78%;
   display: flex;
   align-items: center;
@@ -624,7 +625,7 @@ li {
 }
 .wrapper .main-row-section1-reklam-buttons {
   position: absolute;
-  bottom: 25%;
+  bottom: 15%;
   left: 9%;
   display: flex;
   align-items: center;
@@ -648,4 +649,29 @@ li {
   height: 22px;
   border-radius: 6px;
   background-color: white;
+}
+.wrapper .main-row-section2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .main-row-section2-paneltitle {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .main-row-section2-paneltitle-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.wrapper .main-row-section2-paneltitle-top-title {
+  font-size: 38px;
+  line-height: 32px;
+  margin-right: 20px;
+}
+.wrapper .main-row-section2-paneltitle2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */

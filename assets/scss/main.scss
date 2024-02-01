@@ -23,95 +23,35 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            &-section1{
+            flex-direction: column;
+            @import './section1';
+
+            &-section2{
                 width: 100%;
                 display: flex;
-                align-items: center;
-                justify-content: center;
                 flex-direction: column;
-                &-img{
-                    margin-bottom: 50px;
-                }
-                &-reklam{
-                    position: relative;
-                    &-title{
-                        padding: 10px 292px;
-                        background-color: rgba(188, 188, 188, 0.502);
-                    }
-                    &-fontitle{
-                        position: absolute;
-                        top: 15%;
-                        left: 10%;
-                        display: flex;
-                        flex-direction: column;
-                        &-subtitle{
-                            display: block;
-                            text-transform: none;
-                            font-size: 30px;
-                            // line-height: 46px;
-                            margin-top: 5px;
-                        }
-                    }
-                    &-buttons2{
-                        position: absolute;
-                        bottom: 25%;
-                        left: 32%;
-                        display: flex;
-                        align-items: center;
-                        flex-direction: row;
-                    }
-                    &-buttons3{
-                        position: absolute;
-                        bottom: 25%;
-                        left: 56%;
-                        display: flex;
-                        align-items: center;
-                        flex-direction: row;
-                    }
-                    &-buttons4{
-                        position: absolute;
-                        bottom: 25%;
-                        left: 78%;
-                        display: flex;
-                        align-items: center;
-                        flex-direction: row;
-                    }
-                    &-buttons{
-                        position: absolute;
-                        bottom: 25%;
-                        left: 9%;
-                        display: flex;
-                        align-items: center;
-                        flex-direction: row;
-                        &-button{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            width: 30px;
-                            height: 30px;
-                            border-radius: 50%;
-                            background-color: white;
-                            margin-right: -10px;
-                            // border: 2px solid black;
-                        }
-                        &-button2{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            width: 90px;
-                            height: 22px;
-                            border-radius: 6px;
-                            background-color: white;
-                            // border: 2px solid black;
-                        }
-                    }
-                    flex-direction: column;
+                &-paneltitle{
                     display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
+                    flex-direction: column;
+                    &-top{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+                        &-title{
+                            font-size: 38px;
+                            line-height: 32px;
+                            margin-right: 20px
+                        }
+                    }
+                }
+                &-paneltitle2{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 50px;
                 }
             }
+            
         }
     }
 }
