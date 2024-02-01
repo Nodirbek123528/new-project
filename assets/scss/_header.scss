@@ -1,0 +1,182 @@
+.container{
+    width: 1040px;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    &-container{
+        width: 1040px;
+        height: auto;
+    }
+    &-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 14px;
+        
+    }
+    &-navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 22px;
+        &-item{
+            position: relative;
+        }
+    }
+    &-buttons{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 16px;
+    }
+    &-link{
+        transition: all 0.2s ease-in-out;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 42px;
+        &.active{
+            color: #E89F38;
+            border-bottom: 2px solid #E89F38;
+        }
+        &:hover{
+            color: #E89F38;
+            border-bottom: 2px solid #E89F38;
+        }
+    }
+    &-button{
+    path{
+        transition: all 0.2s ease-in-out;
+    }
+    &:hover{
+        path{
+            fill: #E89F38;
+        }
+    }
+    }
+    &-menu{
+        position: absolute;
+        bottom: 0;
+        right: -100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+        z-index: 0;
+        &.active{
+            right: 0;
+            opacity: 1;
+            visibility: visible;
+            .header-menu-bg{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        &-bg{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+            // display: none;
+        }
+        &-panel{
+            z-index: 3;
+            position: relative;
+            width: 350px;
+            height: calc(100vh - 100px);
+            background-color: white;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;  
+            
+            &-block{
+                &-button{
+                    transition: all 0.2s ease-in-out;
+                    border: 1px solid black;
+                    padding: 11px 15px;
+                    border-radius: 3px;
+                    font-size: 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    &:hover{
+                        background-color: #2B2B2B;
+                        color: #fff;
+                    }
+                }
+                &-2{
+                    &-info{
+                        font-size: 16px;
+                        // letter-spacing: -0.02em;
+                        // font-weight: 300;
+                        margin-bottom: 10px;
+                    }
+                    &-title{
+                        font-size: 14px;
+                    }
+                }
+                &-title{
+                    border-top: 1px dashed black;
+                    font-size: 14px;
+                    padding-top: 10px;
+                }
+                &-titlee{
+                    font-size: 14px;
+                }
+                &-titleee{
+                    font-size: 14px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px dashed black;
+                }
+                &-number{
+                    font-size: 24px;
+                    letter-spacing: -0.02em;
+                    font-weight: 300;
+                }
+                &:last-child{
+                    padding-bottom: 20px;
+                    border-bottom: 1px dashed black ;
+                }
+                display: flex;
+                flex-direction: row;
+                gap: 2px;
+                align-items: center;
+                position: relative;
+                overflow: hidden;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    padding-left: 20px;
+                    .header-menu-panel-title{
+                        font-weight: bold;
+                    }
+                    .header-menu-panel-block-svg{
+                        left: 0px;
+                    }
+                }
+                &-svg{
+                    position: absolute;
+                    left: -50%;
+                }
+            } 
+            &-title{
+                // padding-right: 162px;
+                font-size: 16px;
+                cursor: pointer;
+
+            }             
+        }
+    }
+}

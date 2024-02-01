@@ -376,10 +376,7 @@ li {
   height: auto;
 }
 
-.wrapper {
-  font-family: "Montserrat", "sans-serif";
-}
-.wrapper .header {
+.header {
   width: 100%;
   height: auto;
   display: flex;
@@ -389,52 +386,52 @@ li {
   position: absolute;
   z-index: 10;
 }
-.wrapper .header-container {
+.header-container {
   width: 1040px;
   height: auto;
 }
-.wrapper .header-row {
+.header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 18px 14px;
 }
-.wrapper .header-navbar {
+.header-navbar {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 22px;
 }
-.wrapper .header-navbar-item {
+.header-navbar-item {
   position: relative;
 }
-.wrapper .header-buttons {
+.header-buttons {
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 16px;
 }
-.wrapper .header-link {
+.header-link {
   transition: all 0.2s ease-in-out;
   font-weight: 300;
   font-size: 18px;
   padding-bottom: 42px;
 }
-.wrapper .header-link.active {
+.header-link.active {
   color: #E89F38;
   border-bottom: 2px solid #E89F38;
 }
-.wrapper .header-link:hover {
+.header-link:hover {
   color: #E89F38;
   border-bottom: 2px solid #E89F38;
 }
-.wrapper .header-button path {
+.header-button path {
   transition: all 0.2s ease-in-out;
 }
-.wrapper .header-button:hover path {
+.header-button:hover path {
   fill: #E89F38;
 }
-.wrapper .header-menu {
+.header-menu {
   position: absolute;
   bottom: 0;
   right: -100%;
@@ -443,16 +440,16 @@ li {
   transition: all 0.3s ease-in-out;
   z-index: 0;
 }
-.wrapper .header-menu.active {
+.header-menu.active {
   right: 0;
   opacity: 1;
   visibility: visible;
 }
-.wrapper .header-menu.active .header-menu-bg {
+.header-menu.active .header-menu-bg {
   opacity: 1;
   visibility: visible;
 }
-.wrapper .header-menu-bg {
+.header-menu-bg {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -463,7 +460,7 @@ li {
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
-.wrapper .header-menu-panel {
+.header-menu-panel {
   z-index: 3;
   position: relative;
   width: 350px;
@@ -474,7 +471,7 @@ li {
   flex-direction: column;
   gap: 8px;
 }
-.wrapper .header-menu-panel-block {
+.header-menu-panel-block {
   display: flex;
   flex-direction: row;
   gap: 2px;
@@ -483,7 +480,7 @@ li {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
-.wrapper .header-menu-panel-block-button {
+.header-menu-panel-block-button {
   transition: all 0.2s ease-in-out;
   border: 1px solid black;
   padding: 11px 15px;
@@ -494,53 +491,161 @@ li {
   justify-content: center;
   width: 100%;
 }
-.wrapper .header-menu-panel-block-button:hover {
+.header-menu-panel-block-button:hover {
   background-color: #2B2B2B;
   color: #fff;
 }
-.wrapper .header-menu-panel-block-2-info {
+.header-menu-panel-block-2-info {
   font-size: 16px;
   margin-bottom: 10px;
 }
-.wrapper .header-menu-panel-block-2-title {
+.header-menu-panel-block-2-title {
   font-size: 14px;
 }
-.wrapper .header-menu-panel-block-title {
+.header-menu-panel-block-title {
   border-top: 1px dashed black;
   font-size: 14px;
   padding-top: 10px;
 }
-.wrapper .header-menu-panel-block-titlee {
+.header-menu-panel-block-titlee {
   font-size: 14px;
 }
-.wrapper .header-menu-panel-block-titleee {
+.header-menu-panel-block-titleee {
   font-size: 14px;
   padding-bottom: 10px;
   border-bottom: 1px dashed black;
 }
-.wrapper .header-menu-panel-block-number {
+.header-menu-panel-block-number {
   font-size: 24px;
   letter-spacing: -0.02em;
   font-weight: 300;
 }
-.wrapper .header-menu-panel-block:last-child {
+.header-menu-panel-block:last-child {
   padding-bottom: 20px;
   border-bottom: 1px dashed black;
 }
-.wrapper .header-menu-panel-block:hover {
+.header-menu-panel-block:hover {
   padding-left: 20px;
 }
-.wrapper .header-menu-panel-block:hover .header-menu-panel-title {
+.header-menu-panel-block:hover .header-menu-panel-title {
   font-weight: bold;
 }
-.wrapper .header-menu-panel-block:hover .header-menu-panel-block-svg {
+.header-menu-panel-block:hover .header-menu-panel-block-svg {
   left: 0px;
 }
-.wrapper .header-menu-panel-block-svg {
+.header-menu-panel-block-svg {
   position: absolute;
   left: -50%;
 }
-.wrapper .header-menu-panel-title {
+.header-menu-panel-title {
   font-size: 16px;
   cursor: pointer;
+}
+
+.wrapper {
+  font-family: "Montserrat", "sans-serif";
+  display: flex;
+  justify-content: center;
+}
+.wrapper .main {
+  position: absolute;
+  top: 109px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .main-container {
+  width: 1040px;
+  height: auto;
+}
+.wrapper .main-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .main-row-section1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper .main-row-section1-img {
+  margin-bottom: 50px;
+}
+.wrapper .main-row-section1-reklam {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.wrapper .main-row-section1-reklam-title {
+  padding: 10px 292px;
+  background-color: rgba(188, 188, 188, 0.502);
+}
+.wrapper .main-row-section1-reklam-fontitle {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .main-row-section1-reklam-fontitle-subtitle {
+  display: block;
+  text-transform: none;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.wrapper .main-row-section1-reklam-buttons2 {
+  position: absolute;
+  bottom: 25%;
+  left: 32%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.wrapper .main-row-section1-reklam-buttons3 {
+  position: absolute;
+  bottom: 25%;
+  left: 56%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.wrapper .main-row-section1-reklam-buttons4 {
+  position: absolute;
+  bottom: 25%;
+  left: 78%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.wrapper .main-row-section1-reklam-buttons {
+  position: absolute;
+  bottom: 25%;
+  left: 9%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.wrapper .main-row-section1-reklam-buttons-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: -10px;
+}
+.wrapper .main-row-section1-reklam-buttons-button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 22px;
+  border-radius: 6px;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */
